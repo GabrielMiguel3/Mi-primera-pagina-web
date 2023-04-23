@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3Bet </title>
+</head>
+<body>  
+</body>
+</html>
+<header>
+  <div class="logo">
+    <a href="index.html"><img src="ruta_del_logo.png" alt="Logo de la empresa"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="pagina1.htlm"> 3 Predicciones de hoy </a></li>
+      <li><a href="pagina2.html">Página 2</a></li>
+      <li><a href="pagina3.html">Página 3</a></li>
+    </ul>
+  </nav>
+</header>
+/* Estilos del header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del logo */
+.logo {
+  max-width: 150px;
+}
+
+.logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos del menú de navegación */
+nav {
+  margin-left: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li:not(:last-child) {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff4500;
+}
+<header>
+  <div class="header-content">
+    <h1>LAS RECETAS DE DIANA</h1>
+    <p>La mejor página web para mantenerse informado sobre noticias, eventos y resultados deportivos.</p>
+    <a href="servicios.html" class="cta-button">Ver Servicios</a>
+  </div>
+</header>
+/* Estilos para la sección Hero */
+.hero {
+  background-image: url('ruta/imagen.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Estilos para la llamada a la acción */
+.cta-button {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+<section class="two-columns">
+  <div class="column-left">
+    <div class="image-container">
+      <img src="ruta/imagen.jpg" alt="Descripción de la imagen">
+    </div>
+  </div>
+  <div class="column-right">
+    <h2>Presentación de la sección</h2>
+    <p>Pequeña descripción de la página web y sus servicios sobre diseño de web.</p>
+    <a href="#servicios">Ver nuestros servicios</a>
+  </div>
+</section>
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.column-left {
+  flex-basis: 50%;
+  padding-right: 2rem;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+
+.column-right {
+  flex-basis: 50%;
+  text-align: left;
+}
+
+.column-right h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.column-right p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.column-right a {
+  display: inline-block;
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.column-right a:hover {
+  background-color: #fff;
+  color: #1abc9c;
+  border: 2px solid #1abc9c;
+}
+
+<style>
+  /* Estilos para la sección */
+  .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+  }
+
+  /* Estilos para la columna de la izquierda */
+  .left-column {
+    width: 50%;
+    padding-right: 20px;
+  }
+
+  .left-column img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Estilos para la columna de la derecha */
+  .right-column {
+    width: 50%;
+    text-align: center;
+  }
+
+  .right-column h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .right-column p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  .right-column a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+
+  .right-column a:hover {
+    background-color: #005ea3;
+    transform: translateY(-3px);
+  }
+</style>
+
+<!-- HTML de la sección con dos columnas -->
+<section class="section">
+  <div class="left-column">
+    <img src="ruta/a/la/imagen.jpg" alt="Descripción de la imagen">
+  </div>
+  <div class="right-column">
+    <h2>Título de la sección</h2>
+    <p>Descripción de la página web y sus servicios sobre diseño de web.</p>
+    <a href="#servicios">Ir a la sección de servicios</a>
+  </div>
+</section>
+<section>
+  <h2>Galería de imágenes</h2>
+  <div class="gallery">
+    <img src="imagen1.jpg" alt="Imagen 1">
+    <img src="imagen2.jpg" alt="Imagen 2">
+    <img src="imagen3.jpg" alt="Imagen 3">
+    <img src="imagen4.jpg" alt="Imagen 4">
+    <img src="imagen5.jpg" alt="Imagen 5">
+    <img src="imagen6.jpg" alt="Imagen 6">
+  </div>
+</section>
+section {
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  margin: 10px;
+  max-width: 300px;
+  border: 1px solid #ccc;
+}
+<footer>
+  <div class="column">
+    <img src="logo.png" alt="Logo de la empresa">
+  </div>
+  <div class="column">
+    <h3>Servicios de diseño web</h3>
+    <ul>
+      <li>Sitios web estáticos</li>
+      <li>Sitios web dinámicos</li>
+      <li>Tiendas en línea</li>
+      <li>Aplicaciones web</li>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>Legal</h3>
+    <ul>
+      <li>Términos y condiciones</li>
+      <li>Política de privacidad</li>
+      <li>Aviso legal</li>
+      <li>Política de cookies</li>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>Redes sociales</h3>
+    <div class="social">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+</footer>
+footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.social a {
+  color: #fff;
+  font-size: 1.5em;
+}
+/* Estilos para la sección Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+}
+
+/* Estilos para las columnas */
+.footer-col {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+/* Estilos para la primera columna (logo) */
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+/* Estilos para la segunda columna (servicios) */
+.servicios ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.servicios li {
+  margin-bottom: 10px;
+}
+
+.servicios a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para la tercera columna (pestañas legales) */
+.legales ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.legales li {
+  margin-bottom: 10px;
+}
+
+.legales a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para la cuarta columna (redes sociales) */
+.redes-sociales ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.redes-sociales li {
+  margin-bottom: 10px;
+}
+
+.redes-sociales a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #333;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+}
